@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Gallery</string>
-    <string name="flickr_api_key">7d9f84c096be55b4ff19bdc10b80e59a</string>
-    <string name="google_map_api_key">AIzaSyDuKSUEORPQaUUXDmxE2dQYspVHfo30f9Y</string>
-    <string name="gallery">Gallery</string>
-    <string name="map">Map</string>
-    <string name="refresh">Refresh</string>
-</resources>
