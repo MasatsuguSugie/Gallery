@@ -1,0 +1,13 @@
+package edu.vt.cs.cs5254.gallery
+
+import androidx.lifecycle.*
+
+class PhotoGalleryViewModel : ViewModel() {
+
+    val galleryItemsLiveData = FlickrFetchr.responseLiveData
+
+    fun loadPhotos() {
+        FlickrFetchr.fetchPhotos(true)
+    }
+
+}
